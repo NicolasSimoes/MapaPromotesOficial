@@ -93,7 +93,7 @@ for PROMOTOR in PROMOTORes:
         cliente_coords = [float(row['LATITUDE']), float(row['LONGITUDE'])]
         folium.CircleMarker(
             location=cliente_coords,
-            radius=6,
+            radius=10,
             color=cor,
             fill=True,
             fill_color=cor,
@@ -135,7 +135,7 @@ for PROMOTOR in PROMOTORes:
         cliente_coords = [float(row['LATITUDE']), float(row['LONGITUDE'])]
         folium.CircleMarker(
             location=cliente_coords,
-            radius=6,
+            radius=9,
             color=cor,
             fill=True,
             fill_color=cor,
